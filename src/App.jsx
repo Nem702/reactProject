@@ -1,9 +1,10 @@
 import React from 'react'
+import Hero from './components/hero'
 
 const App = () => {
   return (
-    <main>
-      <h1 className='text-5xl text-violet-300 font-bold'>Welcome to my ReactJS and TailwindCSS project</h1>
+    <main className='relative min-h-screen w-screen overflow-x-hidden'>
+      <Hero />
     </main>
   )
 }
