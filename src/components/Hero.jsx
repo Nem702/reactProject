@@ -13,7 +13,8 @@ const Hero = () => {
     const [isLoading, setIsLoading] = useState(true);
     const [loadedVideos, setLoadedVideos] = useState(0);
 
-    const totalVideos = 4;
+    const totalVideos = 3;
+    // adding 4th video causes loader to load forever
     const nextVideoRef = useRef(null);
 
     const handleVideoLoad = () => {
@@ -33,7 +34,9 @@ const Hero = () => {
 
         setCurrentIndex(upcomingVideoIndex);
     }
+
     // checking if videos are loaded
+
     useEffect(() => {
         if(loadedVideos === totalVideos - 1) {
             setIsLoading(false);
