@@ -1,7 +1,9 @@
-ReactJS project with TailwindCSS
+#Learning project!
 
+React.js; TailwindCSS; GSAP
 
-# React + Vite
+Inspiration by: https://zentry.com/
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
